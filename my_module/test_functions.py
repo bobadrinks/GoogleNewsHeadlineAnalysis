@@ -4,7 +4,7 @@ Note: because these are 'empty' functions (return None), here we just test
   that the functions execute, and return None, as expected.
 """
 
-from my_module.functions import get_headlines, print_headlines, \
+from functions import get_headlines, print_headlines, \
                                 text_to_word_bag, count_occurrences, \
                                 most_common_words
 

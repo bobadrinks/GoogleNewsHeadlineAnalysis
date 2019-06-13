@@ -60,7 +60,7 @@ def text_to_word_bag(text):
     list: A list of words.
     """
     # strip punctuation and standalone numbers
-    for bad_char in '''!"#$%&\()*+—–-,./:;<=>?@[\\]^_`{|}~''':
+    for bad_char in '''!"#$%&\()*+-,./:;<=>?@[\\]^_`{|}~''':
         # needs to be escaped
         if bad_char in ['[', ']', '.', '(', ')', '\\', '^']:
             text = re.sub(r'^\{}'.format(bad_char), ' ', text)
