@@ -1,0 +1,2 @@
+# If your project has any requirements not included in anaconda, include them here
+This project requires the wordcloud library to run, which is not included in anaconda. To install, use the pip: `pip install wordcloud`.
